@@ -3,6 +3,7 @@ const navList = document.querySelector(".nav-list");
 const navItems = document.querySelectorAll(".nav-item");
 const menuLine = document.querySelectorAll(".line");
 const navLinks = document.querySelectorAll(".nav-link");
+const year = document.querySelector(".year");
 
 
 function toggleMenu(){
@@ -23,3 +24,8 @@ navLinks.forEach((link)=>{
      toggleMenu();
 })
 });
+
+document.addEventListener("DOMContentLoaded", () =>{
+    year.innerText = new Date().getFullYear();
+})
+    
