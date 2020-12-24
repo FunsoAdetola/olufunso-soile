@@ -72,6 +72,7 @@ body {
   background-image: url(../images/laptop.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position-x: center;
 }
 .header-container {
   justify-content: center;
