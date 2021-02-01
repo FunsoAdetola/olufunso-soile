@@ -314,6 +314,7 @@ body {
 #projects {
   background-color: #f4f4f4;
   padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 .project-title h2 {
   color: #101010;
@@ -337,7 +338,7 @@ body {
 }
 .project-card {
   display: grid;
-  grid-template-rows: 12fr 1fr 1fr;
+  grid-template-rows: 10fr 1fr 1fr;
   border-radius: 10px;
   background-color: #fff;
 }
